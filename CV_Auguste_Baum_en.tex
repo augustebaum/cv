@@ -1,0 +1,35 @@
+% possible options include:
+%   font size ('10pt', '11pt' and '12pt'),
+%   paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape')
+%   font family ('sans' and 'roman')
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\input{sections/doc_options}
+
+\input{sections/title_en}
+\input{sections/personal_info}
+
+%     height thickness of frame
+%      v     v
+\photo[70pt][0.3pt]{noir2-lowqual}
+
+
+\begin{document}
+
+\makecvtitle
+
+\vspace{-1cm}
+
+\input{sections/experience_en}
+
+\input{sections/education_en}
+
+\input{sections/projects_en}
+
+\input{sections/languages_en}
+
+\input{sections/skills_en}
+
+% \input{sections/interests_en}
+
+\end{document}
